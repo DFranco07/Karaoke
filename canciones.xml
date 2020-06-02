@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE canciones [
+<!ELEMENT canciones (cancion)*>
+<!ELEMENT cancion (nombre , artista , genero , url)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT artista (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ATTLIST cancion id CDATA #REQUIRED>
+]>
+<canciones>
+	<cancion id="1">
+		<nombre>El Equivocado</nombre>
+		<artista>Andre Cepeda</artista>
+		<genero>pop</genero>
+		<url>https://www.youtube.com/watch?v=FqIScqkpqCE</url>
+	</cancion>
+	<cancion id="2">
+		<nombre>Rojo</nombre>
+		<artista>J Balvin</artista>
+		<genero>Reggaeton</genero>
+		<url>https://www.youtube.com/watch?v=jTT1C-YSeeM</url>
+	</cancion>
+	<cancion id="3">
+		<nombre>Lobo Hombre en Paris</nombre>
+		<artista>La Union</artista>
+		<genero>Rock</genero>
+		<url>https://www.youtube.com/watch?v=LX60FfEVwNw</url>
+	</cancion>
+	<cancion id="4">
+		<nombre>Sera</nombre>
+		<artista>Ricardo Montaner</artista>
+		<genero>Balada</genero>
+		<url>https://www.youtube.com/watch?v=b6YR1cNHKLI</url>
+	</cancion>
+	<cancion id="5">
+		<nombre>Mujeres Divinas</nombre>
+		<artista>Vicente Fernandez</artista>
+		<genero>Ranchera</genero>
+		<url>https://www.youtube.com/watch?v=0-izKaMUibo</url>
+	</cancion>
+<cancion id="7"><nombre>Bogota</nombre><artista>J Balvin</artista><genero>Novela</genero><url>youtube.com/watch?v=WpHXE1CEXTk</url></cancion><cancion id="8"><nombre>Infiel</nombre><artista>Rauw Alejandro ft Varios</artista><genero>Reggaeton</genero><url>https://www.youtube.com/watch?v=awFb99ni6o8</url></cancion><cancion id="36"><nombre>Azul</nombre><artista>J Balvin</artista><genero>Reggaeton</genero><url>https://www.youtube.com/watch?v=WpHXE1CEXTk</url></cancion></canciones>

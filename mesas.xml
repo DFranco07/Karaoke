@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mesas [
+<!ELEMENT mesas (mesa)*>
+<!ATTLIST mesa id CDATA #REQUIRED>
+]>
+<mesas>
+	<mesa id="1" estado="ocupado">Mesa 1</mesa>
+	<mesa id="2" estado="libre">Mesa 2</mesa>
+	<mesa id="3" estado="ocupado">Mesa 3</mesa>
+	<mesa id="4" estado="ocupado">Mesa 4</mesa>
+	<mesa id="5" estado="ocupado">Mesa 5</mesa>
+</mesas>
